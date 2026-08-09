@@ -15,6 +15,8 @@ import Benefits from './components/Benefits';
 import RecipeShowcase from './components/RecipeShowcase';
 import HowItWorksSteps from './components/HowItWorksSteps';
 import Bonuses from './components/Bonuses';
+import Testimonials from './components/Testimonials';
+import CheckoutBlock from './components/CheckoutBlock';
 
 export default function App() {
   const scrollToSection = (id: string) => {
@@ -35,6 +37,8 @@ export default function App() {
       <RecipeShowcase />
       <HowItWorksSteps />
       <Bonuses />
+      <Testimonials />
+      <CheckoutBlock />
     </div>
   );
 }

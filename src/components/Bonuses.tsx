@@ -18,7 +18,8 @@ export default function Bonuses() {
       title: 'Guía de Maridajes y Combinaciones',
       description: 'Descubre qué panes, vinos, frutas y aperitivos acompañan a la perfección cada vela salada o dulce para elevar la experiencia.',
       value: '$20',
-      icon: Sparkles
+      icon: Sparkles,
+      image: 'https://i.imgur.com/JLMDmFU.png'
     },
     {
       id: '3',
@@ -26,7 +27,8 @@ export default function Bonuses() {
       title: 'Calculadora de Precios y Costos',
       description: 'Suma ingredientes, mecha y envase. Divide por el rendimiento para obtener tu costo unitario y asegurar una ganancia real.',
       value: '$25',
-      icon: DollarSign
+      icon: DollarSign,
+      image: 'https://i.imgur.com/j0yftuY.png'
     },
     {
       id: '4',
@@ -34,7 +36,8 @@ export default function Bonuses() {
       title: 'Guía de Conservación y Almacenamiento',
       description: 'Aprende cómo conservar tus velas comestibles en perfecto estado, temperatura ideal y tiempos de vida útil.',
       value: '$20',
-      icon: Gift
+      icon: Gift,
+      image: 'https://i.imgur.com/2VqhVoD.png'
     }
   ];
 
@@ -62,8 +65,8 @@ export default function Bonuses() {
                 key={bonus.id}
                 className="bg-[#FAF7F2] border border-amber-200/80 rounded-2xl p-8 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden shadow-xl text-neutral-900 hover:border-amber-400"
               >
-                <div className="absolute top-0 right-0 bg-neutral-950 text-amber-300 font-serif font-bold text-xs px-4 py-2 rounded-bl-xl border-l border-b border-amber-500/30 shadow-sm">
-                  VALORADO EN <span className="line-through">{bonus.value}</span> <strong className="text-amber-200">¡GRATIS!</strong>
+                <div className="absolute top-0 right-0 bg-neutral-950 text-amber-300 font-serif font-bold text-xs px-4 py-2 rounded-bl-xl border-l border-b border-amber-500/30 shadow-sm tracking-wider uppercase">
+                  REGALO EXCLUSIVO
                 </div>
 
                 <div>
@@ -87,7 +90,7 @@ export default function Bonuses() {
                     </div>
                   )}
 
-                  <h3 className="font-serif text-xl font-semibold text-neutral-950 mb-3 group-hover:text-amber-800 transition-colors">
+                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-neutral-950 mb-3 group-hover:text-amber-800 transition-colors">
                     {bonus.title}
                   </h3>
                   <p className="text-neutral-700 text-sm leading-relaxed mb-6 font-normal">
