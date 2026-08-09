@@ -10,11 +10,11 @@ export default function CheckoutBlock() {
   };
 
   const features = [
-    '23 recetas paso a paso',
-    'Guía para tu primera vela perfecta',
-    'Lista de compras lista para usar',
-    'Guía "Momento WOW"',
-    'Recetas para ocasiones especiales',
+    'Acceso a las 23 recetas paso a paso',
+    'Set de Etiquetas Gourmet de Diseño (Listas para imprimir)',
+    'Guía de Maridajes y Combinaciones',
+    'Calculadora de Precios y Costos',
+    'Guía de Conservación y Almacenamiento',
     'Acceso de por vida'
   ];
 
