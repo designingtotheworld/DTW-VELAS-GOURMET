@@ -39,7 +39,7 @@ export default function RecipeShowcase() {
   ];
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-neutral-950 text-white border-b border-neutral-900">
+    <section id="recetas" className="py-24 px-4 sm:px-6 lg:px-8 bg-neutral-950 text-white border-b border-neutral-900">
       <div className="max-w-7xl mx-auto space-y-16">
         
         {/* Header */}
@@ -50,6 +50,47 @@ export default function RecipeShowcase() {
           <p className="text-neutral-400 text-base sm:text-lg italic font-light">
             Perfectas para cenas, ocasiones especiales y regalos pensados.
           </p>
+        </div>
+
+        {/* Contenido / Índice del Recetario Preview */}
+        <div className="bg-gradient-to-br from-neutral-900 via-neutral-900 to-amber-950/30 border border-amber-500/40 rounded-3xl p-6 sm:p-10 shadow-2xl overflow-hidden">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-6 space-y-4 text-left">
+              <span className="text-amber-400 font-semibold text-xs uppercase tracking-widest bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/30">
+                Índice & Contenido
+              </span>
+              <h3 className="font-serif text-2xl sm:text-3xl font-normal text-white">
+                Todo lo que incluye el recetario digital
+              </h3>
+              <p className="text-neutral-300 text-sm sm:text-base leading-relaxed">
+                Un recetario completo, diseñado paso a paso y con fotografías reales para que cada vela comestible quede perfecta desde el primer intento.
+              </p>
+              <ul className="space-y-2 text-sm text-neutral-300 pt-2">
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                  <span>Índice detallado de recetas dulces y saladas</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                  <span>Guía de mechas comestibles y moldes adecuados</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                  <span>Tiempos de preparación y temperaturas exactas</span>
+                </li>
+              </ul>
+            </div>
+            <div className="lg:col-span-6">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-amber-500/30 group">
+                <img 
+                  src="https://i.imgur.com/RQcoCna.jpeg" 
+                  alt="Contenido del Recetario"
+                  className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Category 1: Salados */}

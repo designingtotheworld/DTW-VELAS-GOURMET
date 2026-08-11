@@ -26,8 +26,9 @@ export default function HowItWorksSteps() {
       <div className="bg-neutral-100 text-neutral-900 py-24 px-4 sm:px-6 lg:px-8 border-b border-amber-200">
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="font-serif text-3xl sm:text-5xl font-normal text-neutral-900 leading-[1.2]">
-              Cómo funciona: de cero a "GUAU" en 3 simples pasos
+            <h2 className="font-serif text-2xl sm:text-3xl font-normal text-neutral-900 leading-[1.2]">
+              PREPARA TUS VELAS COMESTIBLES <br className="hidden sm:inline" />
+              EN 30MIN EN 3 SIMPLES PASOS
             </h2>
           </div>
 

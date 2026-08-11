@@ -109,7 +109,8 @@ export default function Bonuses() {
 
         <div className="mt-12 text-center bg-gradient-to-r from-neutral-900 via-amber-950/30 to-neutral-900 p-6 rounded-2xl border border-amber-500/30 max-w-3xl mx-auto shadow-xl">
           <p className="font-serif text-lg text-amber-200 italic">
-            "Una idea simple, bien ejecutada, vale más que un producto complicado a medio hacer."
+            "Una idea simple, bien ejecutada, <br className="hidden sm:inline" />
+            vale más que un producto complicado a medio hacer."
           </p>
           <span className="text-xs text-neutral-400 uppercase tracking-widest mt-2 block">— Guía Oficial Velas Comestibles</span>
         </div>

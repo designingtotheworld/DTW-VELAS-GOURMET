@@ -40,7 +40,7 @@ export default function Benefits() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-neutral-900 leading-[1.2]">
-            ¿Por qué estas velas comestibles causan tanta impresión?
+            ¿Por qué estas velas comestibles causan tan buena impresión?
           </h2>
         </div>
 

@@ -66,11 +66,11 @@ export default function CheckoutBlock() {
               {/* Precios */}
               <div className="text-center mb-8">
                 <div className="text-neutral-400 text-base sm:text-lg font-medium mb-1 line-through">
-                  Normalmente $38
+                  Normalmente $25 USD
                 </div>
                 <div className="flex items-center justify-center gap-2 font-serif font-bold text-neutral-950 mb-2">
                   <span className="text-4xl sm:text-5xl text-amber-700">US$</span>
-                  <span className="text-6xl sm:text-7xl tracking-tighter">15</span>
+                  <span className="text-6xl sm:text-7xl tracking-tighter">9,90</span>
                 </div>
                 <p className="text-neutral-500 text-sm font-medium">
                   Pago único • Acceso de por vida

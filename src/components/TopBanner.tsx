@@ -50,12 +50,7 @@ export default function TopBanner() {
           </div>
         </div>
       </div>
-      {/* Detail badge right below the moving ribbon */}
-      <div className="bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 text-black text-center text-xs sm:text-sm font-bold py-1.5 px-4 tracking-wide shadow-inner flex items-center justify-center gap-2">
-        <Sparkles className="w-4 h-4 fill-black text-black" />
-        <span>⚡ ¡OFERTA ESPECIAL! Solo por hoy: 60% de descuento aplicado automáticamente en tu acceso</span>
-        <Sparkles className="w-4 h-4 fill-black text-black" />
-      </div>
+
     </div>
   );
 }

@@ -7,7 +7,7 @@ interface HeroProps {
 }
 
 const carouselImages = [
-  { url: 'https://i.imgur.com/FFgMOc0.png', title: 'Velas Gourmet Artesanales' },
+  { url: 'https://i.imgur.com/ZPTihxK.png', title: 'Velas Gourmet Artesanales' },
   { url: 'https://i.imgur.com/1KUAoy1.png', title: 'Creaciones Exclusivas' },
   { url: 'https://i.imgur.com/g26mdyC.png', title: 'Experiencia Culinaria Única' },
   { url: 'https://i.imgur.com/gCRpHB2.png', title: 'Presentación Profesional' },
@@ -78,13 +78,6 @@ export default function Hero({ onScrollToPricing, onScrollToRecipes }: HeroProps
 
         </div>
 
-        {/* Small caption below carousel */}
-        <div className="mb-8">
-          <span className="inline-block bg-neutral-900 text-amber-300 font-serif text-xs sm:text-sm px-4 py-1.5 rounded-full border border-amber-500/30 shadow-md">
-            ✨ {carouselImages[currentIndex].title}
-          </span>
-        </div>
-
         {/* Main Headline right below first photo/carousel */}
         <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal leading-[1.2] mb-6 tracking-tight">
           Crea Velas Comestibles Gourmet <br className="hidden sm:inline" />
@@ -116,7 +109,7 @@ export default function Hero({ onScrollToPricing, onScrollToRecipes }: HeroProps
             className="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold px-8 py-4 rounded-xl shadow-xl shadow-amber-600/20 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-lg cursor-pointer"
           >
             <Sparkles className="w-5 h-5 text-black" />
-            <span>Quiero Acceso Inmediato ($15 USD)</span>
+            <span>Quiero Acceso Inmediato ($9,90 USD)</span>
             <ArrowRight className="w-5 h-5" />
           </button>
           

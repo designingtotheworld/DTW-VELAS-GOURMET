@@ -96,13 +96,13 @@ export default function PricingCheckout() {
 
               <div className="border-t border-neutral-800 pt-6">
                 <div className="flex items-baseline justify-between mb-2">
-                  <span className="text-neutral-400 text-sm">Precio regular:</span>
-                  <span className="text-neutral-500 line-through text-lg">$67 USD</span>
+                  <span className="text-neutral-400 text-sm">Normalmente:</span>
+                  <span className="text-neutral-500 line-through text-lg">$25 USD</span>
                 </div>
                 <div className="flex items-baseline justify-between">
                   <span className="text-white font-serif text-lg">Precio de hoy:</span>
                   <div className="text-right">
-                    <span className="text-3xl sm:text-4xl font-serif font-bold text-amber-400">$15</span>
+                    <span className="text-3xl sm:text-4xl font-serif font-bold text-amber-400">$9,90</span>
                     <span className="text-amber-400 text-sm ml-1">USD</span>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export default function PricingCheckout() {
                   className="w-full mt-6 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold py-4 rounded-xl shadow-lg shadow-amber-600/30 transition-all flex items-center justify-center gap-3 text-base cursor-pointer"
                 >
                   <Sparkles className="w-5 h-5" />
-                  <span>Obtener Acceso Inmediato por $15 USD</span>
+                  <span>Obtener Acceso Inmediato por $9,90 USD</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
               </form>
