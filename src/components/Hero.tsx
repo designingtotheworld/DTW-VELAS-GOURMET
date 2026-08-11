@@ -9,8 +9,6 @@ interface HeroProps {
 const carouselImages = [
   { url: 'https://i.imgur.com/ZPTihxK.png', title: 'Velas Gourmet Artesanales' },
   { url: 'https://i.imgur.com/1KUAoy1.png', title: 'Creaciones Exclusivas' },
-  { url: 'https://i.imgur.com/g26mdyC.png', title: 'Experiencia Culinaria Única' },
-  { url: 'https://i.imgur.com/gCRpHB2.png', title: 'Presentación Profesional' },
   { url: 'https://i.imgur.com/8zQSizA.png', title: 'Sabores Dulces y Salados' },
   { url: 'https://i.imgur.com/sjwT7Y7.png', title: 'Detalles que Sorprenden' },
   { url: 'https://i.imgur.com/vl3Mkcq.png', title: 'El Arte de las Velas Comestibles' },
@@ -22,7 +20,7 @@ export default function Hero({ onScrollToPricing, onScrollToRecipes }: HeroProps
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % carouselImages.length);
-    }, 4000);
+    }, 2500);
     return () => clearInterval(timer);
   }, []);
 
