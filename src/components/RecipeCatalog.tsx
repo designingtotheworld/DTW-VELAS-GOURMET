@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RecipeItem } from '../types';
 import { Clock, Check, Sparkles, X, ChefHat, Flame, BookOpen } from 'lucide-react';
+import gourmetButterImg from '../assets/images/gourmet_butter_candle_1786489150297.jpg';
 
 export default function RecipeCatalog() {
   const [activeTab, setActiveTab] = useState<'todas' | 'salada' | 'dulce'>('todas');
@@ -126,7 +127,7 @@ export default function RecipeCatalog() {
       subtitle: 'La clásica viral · Ideal con pan tostado',
       description: 'La estrella de TikTok e Instagram. Mantequilla infusionada con ajo y romero fresco sin chisporroteos.',
       prepTime: '25 mins',
-      image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=600&auto=format&fit=crop&q=80',
+      image: gourmetButterImg,
       highlights: ['La receta viral número 1', 'Aromática y envolvente', 'Perfecta con pan de campo'],
       ingredients: [
         '250 g de mantequilla',

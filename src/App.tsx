@@ -33,11 +33,11 @@ export default function App() {
         onScrollToPricing={() => scrollToSection('checkout')}
         onScrollToRecipes={() => scrollToSection('recetas')}
       />
-      <Benefits />
-      <RecipeShowcase />
+      <Benefits onScrollToPricing={() => scrollToSection('checkout')} />
+      <RecipeShowcase onScrollToPricing={() => scrollToSection('checkout')} />
       <HowItWorksSteps />
-      <Bonuses />
-      <Testimonials />
+      <Bonuses onScrollToPricing={() => scrollToSection('checkout')} />
+      <Testimonials onScrollToPricing={() => scrollToSection('checkout')} />
       <CheckoutBlock />
     </div>
   );

@@ -1,7 +1,11 @@
 import React from 'react';
-import { Gift, CheckCircle, Sparkles, TrendingUp, DollarSign, ShoppingBag, Lightbulb } from 'lucide-react';
+import { Gift, CheckCircle, Sparkles, TrendingUp, DollarSign, ShoppingBag, Lightbulb, ArrowRight } from 'lucide-react';
 
-export default function Bonuses() {
+interface BonusesProps {
+  onScrollToPricing?: () => void;
+}
+
+export default function Bonuses({ onScrollToPricing }: BonusesProps) {
   const bonuses = [
     {
       id: '1',
@@ -114,6 +118,19 @@ export default function Bonuses() {
           </p>
           <span className="text-xs text-neutral-400 uppercase tracking-widest mt-2 block">— Guía Oficial Velas Comestibles</span>
         </div>
+
+        {onScrollToPricing && (
+          <div className="mt-12 text-center">
+            <button
+              onClick={onScrollToPricing}
+              className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-4 rounded-2xl shadow-xl shadow-amber-500/20 transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider transform hover:-translate-y-0.5"
+            >
+              <Sparkles className="w-5 h-5 text-black" />
+              <span>Obtener Guía + Todos los Bonus ($9,90) - Comprar Ahora</span>
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

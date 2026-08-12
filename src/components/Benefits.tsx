@@ -1,7 +1,11 @@
 import React from 'react';
-import { ChefHat, ShoppingCart, Users, Clock, Sparkles, Award } from 'lucide-react';
+import { ChefHat, ShoppingCart, Users, Clock, Sparkles, Award, ArrowRight } from 'lucide-react';
 
-export default function Benefits() {
+interface BenefitsProps {
+  onScrollToPricing?: () => void;
+}
+
+export default function Benefits({ onScrollToPricing }: BenefitsProps) {
   const benefitsList = [
     {
       icon: ChefHat,
@@ -67,6 +71,19 @@ export default function Benefits() {
             );
           })}
         </div>
+
+        {onScrollToPricing && (
+          <div className="mt-14 text-center">
+            <button
+              onClick={onScrollToPricing}
+              className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider"
+            >
+              <Sparkles className="w-5 h-5" />
+              <span>Obtener Acceso Completo ($9,90) - Comprar Ahora</span>
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

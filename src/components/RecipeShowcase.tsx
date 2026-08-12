@@ -1,7 +1,11 @@
 import React from 'react';
-import { Flame, Heart } from 'lucide-react';
+import { Flame, Heart, Sparkles, ArrowRight } from 'lucide-react';
 
-export default function RecipeShowcase() {
+interface RecipeShowcaseProps {
+  onScrollToPricing?: () => void;
+}
+
+export default function RecipeShowcase({ onScrollToPricing }: RecipeShowcaseProps) {
   const savouryRecipes = [
     {
       title: "Tomate seco y albahaca",
@@ -164,6 +168,19 @@ export default function RecipeShowcase() {
             ))}
           </div>
         </div>
+
+        {onScrollToPricing && (
+          <div className="mt-16 text-center">
+            <button
+              onClick={onScrollToPricing}
+              className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-4 rounded-2xl shadow-xl shadow-amber-500/20 transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider transform hover:-translate-y-0.5"
+            >
+              <Sparkles className="w-5 h-5 text-black" />
+              <span>Quiero Acceso a las 23 Recetas ($9,90) - Comprar Ahora</span>
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </div>
+        )}
 
       </div>
     </section>
