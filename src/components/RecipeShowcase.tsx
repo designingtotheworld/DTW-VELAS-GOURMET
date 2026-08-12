@@ -20,7 +20,7 @@ export default function RecipeShowcase({ onScrollToPricing }: RecipeShowcaseProp
     {
       title: "Queso crema con hierbas y nueces",
       description: "Cremoso, salado y terminado con un toque crujiente de nuez.",
-      image: "https://i.imgur.com/VpWCtwR.png"
+      image: "https://i.imgur.com/Mh3Wouf.jpeg"
     }
   ];
 
