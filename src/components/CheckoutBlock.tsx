@@ -47,8 +47,11 @@ export default function CheckoutBlock() {
             
             {/* Precios */}
             <div className="text-center mb-8">
-              <div className="text-neutral-400 text-base sm:text-lg font-medium mb-1 line-through">
-                Normalmente $25 USD
+              <div className="inline-block bg-neutral-900 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full mb-3 border border-neutral-800">
+                ANTES <span className="line-through text-neutral-300">$25 USD</span>
+              </div>
+              <div className="text-amber-700 text-xs sm:text-sm uppercase tracking-widest font-bold mb-2">
+                OFERTA DE LANZAMIENTO
               </div>
               <div className="flex items-center justify-center gap-1 font-serif font-bold text-neutral-950 mb-3">
                 <span className="text-4xl sm:text-5xl text-amber-700 self-start mt-2">US$</span>
