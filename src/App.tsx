@@ -16,6 +16,7 @@ import RecipeShowcase from './components/RecipeShowcase';
 import HowItWorksSteps from './components/HowItWorksSteps';
 import Bonuses from './components/Bonuses';
 import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 import CheckoutBlock from './components/CheckoutBlock';
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
       <HowItWorksSteps />
       <Bonuses onScrollToPricing={() => scrollToSection('checkout')} />
       <Testimonials onScrollToPricing={() => scrollToSection('checkout')} />
+      <FAQ />
       <CheckoutBlock />
     </div>
   );

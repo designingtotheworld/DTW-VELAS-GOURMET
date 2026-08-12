@@ -7,6 +7,14 @@ export default function FAQ() {
 
   const faqs: FaqItem[] = [
     {
+      question: "¿Puedo pagar en la moneda de mi país?",
+      answer: "¡Sí! Aunque el precio de referencia esté expresado en dólares, al hacer clic en el botón de compra, el checkout de Hotmart detectará automáticamente tu ubicación y te mostrará el monto exacto en tu moneda local. Podrás pagar con tus tarjetas locales o con los métodos de pago autorizados en tu región de forma rápida y 100% segura."
+    },
+    {
+      question: "¿Si estoy en Argentina pago impuestos extras en dólares?",
+      answer: "No. El checkout de Hotmart detecta que estás en Argentina y te muestra el valor en Pesos Argentinos (ARS). La transacción se procesa como una compra local en pesos, por lo que puedes abonar directamente con tu tarjeta de crédito o débito habitual de manera transparente y sin sorpresas."
+    },
+    {
       question: "¿Necesito experiencia previa en la cocina o repostería?",
       answer: "Absolutamente no. El curso está diseñado desde cero para principiantes absolutos. Te llevamos de la mano con explicaciones claras, sin términos técnicos complejos y con ingredientes que encuentras en cualquier supermercado."
     },

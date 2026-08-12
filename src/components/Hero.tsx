@@ -91,13 +91,30 @@ export default function Hero({ onScrollToPricing, onScrollToRecipes }: HeroProps
         </p>
 
         {/* Full width image FoyEusV */}
-        <div className="w-full mb-12 rounded-2xl overflow-hidden shadow-2xl">
+        <div className="w-full mb-10 rounded-2xl overflow-hidden shadow-2xl">
           <img 
             src="https://i.imgur.com/FoyEusV.png" 
             alt="Vela comestible gourmet destacada" 
             className="w-full h-[320px] sm:h-[520px] object-cover hover:scale-105 transition-transform duration-700"
             referrerPolicy="no-referrer"
           />
+        </div>
+
+        {/* Ebook Mockup Showcase in Hero */}
+        <div className="max-w-md mx-auto mb-12 p-6 bg-gradient-to-b from-neutral-900 to-neutral-950 border border-amber-500/40 rounded-3xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl mb-4 border border-amber-500/20">
+            <img 
+              src="https://i.imgur.com/SRWZ3mL.png" 
+              alt="Ebook Guía Definitiva de Velas Comestibles" 
+              className="w-full h-auto object-cover"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+          <div className="text-center">
+            <span className="inline-block bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full">
+              📚 Formato Digital PDF · Acceso Inmediato
+            </span>
+          </div>
         </div>
 
         {/* CTA Buttons */}
