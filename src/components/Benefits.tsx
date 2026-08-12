@@ -74,14 +74,16 @@ export default function Benefits({ onScrollToPricing }: BenefitsProps) {
 
         {onScrollToPricing && (
           <div className="mt-14 text-center">
-            <button
-              onClick={onScrollToPricing}
-              className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider"
+            <a
+              href="https://pay.hotmart.com/P107114275H"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider no-underline"
             >
               <Sparkles className="w-5 h-5" />
               <span>Obtener Acceso Completo ($9,90) - Comprar Ahora</span>
               <ArrowRight className="w-5 h-5" />
-            </button>
+            </a>
           </div>
         )}
       </div>
