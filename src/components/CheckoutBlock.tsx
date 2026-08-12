@@ -82,17 +82,7 @@ export default function CheckoutBlock() {
               ))}
             </div>
 
-            {/* Payment logos row */}
-            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 py-4 mb-8 border-y border-neutral-100 opacity-90">
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-neutral-700 tracking-wider">Mastercard</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-extrabold text-[10px] text-blue-800 tracking-wider">VISA</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-orange-700 tracking-wider">DISCOVER</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-blue-900 tracking-wider">AMEX</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-black tracking-wider"> Pay</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-neutral-800 tracking-wider">G Pay</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-indigo-700 tracking-wider">stripe</span>
-              <span className="px-2 py-1 bg-neutral-50 border border-neutral-200 rounded font-bold text-[10px] text-blue-600 tracking-wider">PayPal</span>
-            </div>
+
 
             {/* Botones de Pago a Hotmart */}
             <div className="space-y-4 max-w-lg mx-auto">
