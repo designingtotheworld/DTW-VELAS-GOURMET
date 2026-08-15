@@ -81,7 +81,7 @@ export default function Benefits({ onScrollToPricing }: BenefitsProps) {
               className="bg-amber-600 hover:bg-amber-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider no-underline"
             >
               <Sparkles className="w-5 h-5" />
-              <span>Obtener Acceso Completo ($4,90) - Comprar Ahora</span>
+              <span>Obtener Acceso Completo ($6,90) - Comprar Ahora</span>
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
