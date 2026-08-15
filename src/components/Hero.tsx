@@ -126,7 +126,7 @@ export default function Hero({ onScrollToPricing, onScrollToRecipes }: HeroProps
             className="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold px-8 py-4 rounded-xl shadow-xl shadow-amber-600/20 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-lg cursor-pointer no-underline uppercase tracking-wide"
           >
             <Sparkles className="w-5 h-5 text-black shrink-0" />
-            <span>QUIERO MI GUÍA DE VELAS COMESTIBLES</span>
+            <span>QUIERO MI GUÍA POR SÓLO $4,90 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0" />
           </a>
           
