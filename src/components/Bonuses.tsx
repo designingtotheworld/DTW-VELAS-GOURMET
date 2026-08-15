@@ -128,7 +128,7 @@ export default function Bonuses({ onScrollToPricing }: BonusesProps) {
               className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-4 rounded-2xl shadow-xl shadow-amber-500/20 transition-all inline-flex items-center gap-3 text-base cursor-pointer uppercase tracking-wider transform hover:-translate-y-0.5 no-underline"
             >
               <Sparkles className="w-5 h-5 text-black" />
-              <span>Obtener Guía + Todos los Bonus ($9,90) - Comprar Ahora</span>
+              <span>Obtener Guía + Todos los Bonus ($4,90) - Comprar Ahora</span>
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
