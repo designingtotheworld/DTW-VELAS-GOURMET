@@ -8,7 +8,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import TopBanner from './components/TopBanner';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
@@ -22,6 +22,12 @@ import FAQ from './components/FAQ';
 import FinalCtaBlock from './components/FinalCtaBlock';
 
 export default function App() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'PageView');
+    }
+  }, []);
+
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
