@@ -55,7 +55,7 @@ export default function CheckoutBlock() {
               </div>
               <div className="flex items-center justify-center gap-1 font-serif font-bold text-neutral-950 mb-3">
                 <span className="text-4xl sm:text-5xl text-amber-700 self-start mt-2">US$</span>
-                <span className="text-6xl sm:text-7xl tracking-tighter">6</span>
+                <span className="text-6xl sm:text-7xl tracking-tighter">9</span>
                 <span className="text-4xl sm:text-5xl text-neutral-950 self-start mt-2">,90</span>
                 <span className="text-xl text-neutral-600 self-end mb-3 ml-1">USD</span>
               </div>
